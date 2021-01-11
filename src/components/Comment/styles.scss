@@ -1,0 +1,19 @@
+.comment {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid black;
+
+  .content {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+
+    .author-name {
+      font-weight: bold;
+    }
+
+    .text {
+      color: silver;
+    }
+  }
+}
